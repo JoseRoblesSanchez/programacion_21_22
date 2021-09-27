@@ -1,6 +1,6 @@
-package Tema1.T1;
+package Evaluacion1.Unidad_2;
 
-    public class Ejercicio2_1<sout> {
+    public class Ejercicio2_1 {
         public static void main(String[] args)
         {
             System.out.println(10 * 2);

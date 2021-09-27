@@ -1,16 +1,16 @@
-package Tema1.T1;
+package Evaluacion1.Unidad_3;
 
 import java.util.Scanner;
 
-public class Ejercicio2_3 {
+public class Ejercicio3_1 {
     public static void main(String[] args) {
-      //  int num1, num2;
+         // byte num1, num2;
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introducir el primer numero");
-        int num1 = teclado.nextInt();
+        byte num1 = teclado.nextByte();
         System.out.println("Introducir el segundo numero");
-        int num2 = teclado.nextInt();
-        System.out.println("La division de los dos numeros es: " + num1 / num2);
+        byte num2 = teclado.nextByte();
+        System.out.println("La suma de estos dos numeros es: " + (num1 + num2));
 
 
     }
