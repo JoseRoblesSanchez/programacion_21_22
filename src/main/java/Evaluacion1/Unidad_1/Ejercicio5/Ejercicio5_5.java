@@ -21,15 +21,13 @@ public class Ejercicio5_5 {
 
         if (num1 > num2) {
             System.out.println("El numero mayor de los tres es " + num1);
-        }
-        else if (num1 > num3){
-            System.out.println("El numero mayor de los tres es " + num1);
-        }
-
-
-
+        } else if (num2 > num3) {
+            System.out.println("El numero mayor de los tres es " + num2);
+        } else if (num3 > num1) {
+            System.out.println("El numero mayor de los tres es " + num3);
         }
     }
+}
 
 
 
